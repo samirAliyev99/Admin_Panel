@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <script type="module" src="index.js" defer></script>
+    <script type="module" src="firebase.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Information</h1>
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group">
+          <a href="Team_members.html"  class="list-group-item list-group-item-action">Team_members</a>
+
+          <a href="courses.html"  class="list-group-item list-group-item-action">Courses</a>
+          <a href="About_us.html" class="list-group-item list-group-item-action">About us</a>
+          <a href="events.html" class="list-group-item list-group-item-action">Events</a>
+          <a href="#" class="list-group-item list-group-item-action">Contact Information</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="form">
+          <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Type of connection (E-mail, GitHub)</label>
+                <input type="text" class="form-control" id="connection_type" aria-describedby="emailHelp" placeholder="Github, LinkedIn">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Connection link</label>
+                <input type="text" class="form-control" id="connection_link" placeholder="Link, Phone">
+              </div>
+              
+              <button type="submit" id="connection_submit" class="btn btn-primary">Submit</button>
+          </form>
+          </div>
+      </div>
+    </div>
+    <div class="database_info">
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Type of connection</th>
+          <th scope="col">Connection link</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr >
+          <th scope="row"></th>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td></td>
+          <td></td>
+        </tr> -->
+      </tbody>
+    </table>
+    </div>
+</body>
+</html>

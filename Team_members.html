@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <script type="module" src="Team_members.js" defer></script>
+    <script type="module" src="firebase.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Team_members</h1>
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group">
+
+        
+            <a href="Team_members.html"  class="list-group-item list-group-item-action">Team_members</a>
+
+          <a href="courses.html"  class="list-group-item list-group-item-action">Courses</a>
+          <a href="About_us.html" class="list-group-item list-group-item-action">About us</a>
+          <a href="events.html" class="list-group-item list-group-item-action">Events</a>
+          <a href="index.html" class="list-group-item list-group-item-action">Contact Information</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="form">
+          <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="text" class="form-control" id="team_member_name" aria-describedby="emailHelp" placeholder="Jack">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Surname</label>
+                <input type="text" class="form-control" id="team_member_surname" aria-describedby="emailHelp" placeholder="Horry">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Position</label>
+                <input type="text" class="form-control" id="team_member_position" aria-describedby="emailHelp" placeholder="Back-end">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Info</label>
+                <textarea class="form-control" id="team_member_info" rows="3"></textarea>
+              </div>
+              
+              <button type="submit" id="team_member_submit" class="btn btn-primary">Submit</button>
+          </form>
+          </div>
+      </div>
+    </div>
+    
+</body>
+</html>

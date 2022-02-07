@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 1.2;
+    
+}
+.form{
+    margin: 1rem;
+}
+.container{
+   
+    margin-top: 1.5rem;
+}
+.container>h1{
+    text-align: center;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+.database_info{
+    margin-top: 1.5rem;
+}
+button{
+    margin-left: 10px;
+    margin-top: 3%;
+}
